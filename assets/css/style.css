@@ -9,9 +9,16 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rokkitt",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5em;
   color: #444444;
   background-color: #EDF7F4;
+  width: 100%;
+  height: 100%;
+
 }
 
 a {
@@ -173,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
+  font-size: 1.25rem;
   color: #16507b;
   white-space: nowrap;
   transition: 0.3s;
@@ -488,7 +495,7 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1.25rem;
   color: #919191;
 }
 
