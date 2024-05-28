@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>OnePage Bootstrap Template - Index</title>
+  <title>Peacemakers</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -37,6 +37,9 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- JQuery JS File -->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
 </head>
 
 <body>
@@ -332,13 +335,13 @@
 
           <div class="col-lg-8 p-2 m-auto">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form  bg-transparent">
+            <form id="contact-form" role="form" class="php-email-form bg-transparent">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="fromEmail" id="fromEmail" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -352,7 +355,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button id="frm-button" type="submit">Send Message</button></div>
             </form>
 
           </div>
@@ -408,6 +411,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- <script src="assets/js/contact.js"></script> -->
+
+
 
 </body>
 
